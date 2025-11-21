@@ -31,7 +31,7 @@ En aquestes instruccions es descriuran les passes per instal·lar mdBook, crear 
    - [Chapter 2](./chapter_2.md)
    - [Chapter 3](./chapter_3.md)
    ```
-5. Dins els fitxers `chapter_1.md`, `chapter_2.md` ... s'ha de fe la documentació de cada apartat.
+5. Dins els fitxers `chapter_1.md`, `chapter_2.md` ... S'ha de fe la documentació de cada apartat.
 4. Generar i veure el llibre
    ```sh
    mdbook build   # genera el llibre a /book
