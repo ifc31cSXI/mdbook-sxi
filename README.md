@@ -25,6 +25,13 @@ En aquestes instruccions es descriuran les passes per instal·lar mdBook, crear 
    - `book.toml`: configuració del llibre.
    - `src/SUMMARY.md`: índex de continguts.
    - `src/*.md`: capítols en Markdown. -
+4. Dins `src/SUMMARY.md` crear l'estructura de continguts del llibre per exemple:
+   ```
+   - [Chapter 1](./chapter_1.md)
+   - [Chapter 2](./chapter_2.md)
+   - [Chapter 3](./chapter_3.md)
+   ```
+5. Dins els fitxers `chapter_1.md`, `chapter_2.md` ... s'ha de fe la documentació de cada apartat.
 4. Generar i veure el llibre
    ```sh
    mdbook build   # genera el llibre a /book
