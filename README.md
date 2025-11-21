@@ -18,7 +18,17 @@ En aquestes instruccions es descriuran les passes per instal·lar mdBook, crear 
    ```sh
    cargo install mdbook
    ```
-3. dfadfadfaf
-
+3. Crear estructura bàsica amb
+   ```sh
+   mdbook init
+   ```
+  - `book.toml`: configuració del llibre.
+  - `src/SUMMARY.md`: índex de continguts.
+  - `src/*.md`: capítols en Markdown. -
+4. Generar i veure el llibre
+  ```sh
+  mdbook build   # genera el llibre a /book
+  mdbook serve   # inicia un servidor local (http://localhost:3000)
+  ```
 ## Lliurament
 Només cal fer commits i push al teu repositori generat per GitHub Classroom.
